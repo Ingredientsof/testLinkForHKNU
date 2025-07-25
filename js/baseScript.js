@@ -23,10 +23,26 @@ document.addEventListener('scroll', function () {
   
     document.body.style.backgroundColor = `rgb(${currentColor[0]}, ${currentColor[1]}, ${currentColor[2]})`;
 });
+
+
+// 카카오 지도 API는 로딩이 끝난 뒤에 실행해야 합니다.
+window.addEventListener('load', function() {
+    var container = document.getElementById('map'); // 지도 표시할 div
+    var options = {
+      center: new kakao.maps.LatLng(37.566826, 126.9786567), // 중심 좌표
+      level: 3 // 확대 레벨
+    };
   
-new daum.roughmap.Lander({
-    "timestamp": "1753467244397",
-    "key": "5v6759rr757",
-    "mapWidth": "334",
-    "mapHeight": "200"
-}).render();
+    // 지도 생성
+    var map = new kakao.maps.Map(container, options);
+  
+    // 마커 생성
+    var markerPosition = new kakao.maps.LatLng(37.566826, 126.9786567);
+    var marker = new kakao.maps.Marker({
+      position: markerPosition
+    });
+  
+    // 지도에 마커 표시
+    marker.setMap(map);
+});
+  

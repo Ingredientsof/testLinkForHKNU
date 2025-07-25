@@ -171,8 +171,4 @@ hr {
 .alignItem-right{align-items: flex-end;}
 
 
-/*지도*/
-#daumRoughmapContainer {
-    border-radius: 8px;
-    overflow: hidden;
-}
+.checkMapBox {background-color: #0035FF;}
