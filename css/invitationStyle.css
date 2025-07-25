@@ -95,7 +95,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 1.6rem;
 }
 
 .explainSubTitle {
@@ -128,6 +128,116 @@ hr {
     color: #000000;
     font-weight: 500;
     font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.checkMapBox {
+    background-color: #0035FF;
+    width: 100%;
+    height: 26vh;
+}
+
+.txtTitle {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.centerBox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.explainBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txtSubTitle {
+    text-align: left;
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.txtSubContent {
+    text-align: right;
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.txtSubTitle2 {
+    text-align: center;
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.txtSubContent2 {
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.txtSubContent3 {
+    color: #0035FF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.txtSubContent4 {
+    color: #9c9c9c;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.circle {
+    width: 5rem;
+    height: 5rem;
+    background-color: #BBC9FF;
+    border-radius: 50%;
+}
+
+.linkIconBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+
+.linkIconContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.txtSubContent5 {
+    color: #000000;
+    font-size: 1.35rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.customFooter {
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+
+    width: 100vw;
+    height: 6vh;
+    background-color: #0035FF;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 /*기본 태그설정*/
@@ -152,10 +262,11 @@ hr {
 
 .img-fit{width: 100%;}
 
-.marginTop-60{margin-bottom: 6rem;}
+.marginTop-60{margin-top: 6rem;}
 
 .marginBottom-65{margin-bottom: 6.5rem;}
 .marginBottom-50{margin-bottom: 5rem;}
+.marginBottom-45{margin-bottom: 4.5rem;}
 .marginBottom-40{margin-bottom: 4rem;}
 .marginBottom-30{margin-bottom: 3rem;}
 .marginBottom-25{margin-bottom: 2.5rem;}
@@ -170,5 +281,3 @@ hr {
 .alignItem-left{align-items: flex-start;}
 .alignItem-right{align-items: flex-end;}
 
-
-.checkMapBox {background-color: #0035FF;}
